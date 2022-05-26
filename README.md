@@ -7,21 +7,21 @@
 To create an image first:
 
 ```{r}
-git clone https://github.com/giobbu/ML-streamlit-apps
-cd ML-streamlit-apps/road-traffic-graph 
+git clone https://github.com/giobbu/road-traffic-graph
+cd road-traffic-graph 
 ```
 
 Then run:
 ```{r}
-docker build -t name-image .
+docker build -t streets-graph .
 ```
 
 Check the image created:
 ```{r}
-ML-streamlit-apps/road-traffic-graph >>> docker image ls
+road-traffic-graph >>> docker image ls
 
 REPOSITORY             TAG       IMAGE ID       CREATED          SIZE
-giobbu/streets-graph   latest    a22bc4da76b4   26 minutes ago   2.97GB
+streets-graph   latest    a22bc4da76b4   26 minutes ago   2.97GB
 ```
 
 ## Pull Image from Docker Hub
